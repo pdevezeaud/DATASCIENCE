@@ -1,0 +1,121 @@
+INSTALL BASEMAP CHAP 11
+(base) C:\Users\MoiMeme>conda install -c conda-forge basemap
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+  environment location: C:\Users\MoiMeme\Anaconda3
+  added / updated specs:
+    - basemap
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    basemap-1.2.0              |   py36h4e5d7af_0        15.1 MB
+    ca-certificates-2019.9.11  |       hecc5488_0         181 KB  conda-forge
+    certifi-2019.9.11          |           py36_0         147 KB  conda-forge
+    conda-4.7.12               |           py36_0         3.0 MB  conda-forge
+    geos-3.6.2                 |       h9ef7328_2         916 KB
+    openssl-1.1.1d             |       hfa6e2cd_0         4.7 MB  conda-forge
+    proj-6.2.0                 |       ha7a8c7b_1         8.5 MB  conda-forge
+    pyproj-2.4.1               |   py36h77f86b8_0         274 KB  conda-forge
+    pyshp-2.1.0                |             py_0          31 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        32.8 MB
+
+The following NEW packages will be INSTALLED:
+  basemap            pkgs/main/win-64::basemap-1.2.0-py36h4e5d7af_0
+  geos               pkgs/main/win-64::geos-3.6.2-h9ef7328_2
+  proj               conda-forge/win-64::proj-6.2.0-ha7a8c7b_1
+  pyproj             conda-forge/win-64::pyproj-2.4.1-py36h77f86b8_0
+  pyshp              conda-forge/noarch::pyshp-2.1.0-py_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+  ca-certificates    pkgs/main::ca-certificates-2019.10.16~ --> conda-forge::ca-certificates-2019.9.11-hecc5488_0
+  certifi                                         pkgs/main --> conda-forge
+  conda                                           pkgs/main --> conda-forge
+  openssl              pkgs/main::openssl-1.1.1d-he774522_3 --> conda-forge::openssl-1.1.1d-hfa6e2cd_0
+
+Proceed ([y]/n)? y
+
+Downloading and Extracting Packages
+proj-6.2.0           | 8.5 MB    | ######################################################### | 100%
+openssl-1.1.1d       | 4.7 MB    | ######################################################### | 100%
+certifi-2019.9.11    | 147 KB    | ######################################################### | 100%
+conda-4.7.12         | 3.0 MB    | ######################################################### | 100%
+ca-certificates-2019 | 181 KB    | ######################################################### | 100%
+pyproj-2.4.1         | 274 KB    | ######################################################### | 100%
+basemap-1.2.0        | 15.1 MB   | ######################################################### | 100%
+geos-3.6.2           | 916 KB    | ######################################################### | 100%
+pyshp-2.1.0          | 31 KB     | ######################################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\Users\MoiMeme>conda install -c conda-forge basemap-data-hires
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+  environment location: C:\Users\Sergent\Anaconda3
+  added / updated specs:
+    - basemap-data-hires
+
+The following packages will be downloaded:
+    package                    |            build
+    ---------------------------|-----------------
+    basemap-data-hires-1.2.0   |                0       105.4 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       105.4 MB
+
+The following NEW packages will be INSTALLED:
+  basemap-data-hires conda-forge/win-64::basemap-data-hires-1.2.0-0
+
+Proceed ([y]/n)? y
+
+Downloading and Extracting Packages
+basemap-data-hires-1 | 105.4 MB  | ######################################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\Users\MoiMeme>>conda install -c conda-forge proj4
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+  environment location: C:\Users\Sergent\Anaconda3
+  added / updated specs:
+    - proj4
+
+The following packages will be downloaded:
+    package                    |            build
+    ---------------------------|-----------------
+    proj4-6.1.1                |       hc2d0af5_1         8.3 MB  conda-forge
+    pyproj-2.3.1               |   py36he1416cd_0         222 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         8.6 MB
+
+The following NEW packages will be INSTALLED:
+  proj4              conda-forge/win-64::proj4-6.1.1-hc2d0af5_1
+
+The following packages will be REMOVED:
+  proj-6.2.0-ha7a8c7b_1
+
+The following packages will be DOWNGRADED:
+  pyproj                               2.4.1-py36h77f86b8_0 --> 2.3.1-py36he1416cd_0
+
+Proceed ([y]/n)? y
+
+Downloading and Extracting Packages
+proj4-6.1.1          | 8.3 MB    | ######################################################### | 100%
+pyproj-2.3.1         | 222 KB    | ######################################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\Users\Sergent>
+
+Copiez le fichier epsg depuis ici :
+https://github.com/matplotlib/basemap/blob/master/lib/mpl_toolkits/basemap/data/epsg

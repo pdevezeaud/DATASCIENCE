@@ -1,0 +1,22 @@
+<MyDataset>
+    <Record>
+        <Number>1</Number>
+        <String>Primo</String>
+        <Boolean>True</Boolean>
+    </Record>
+    <Record>
+        <Number>2</Number>
+        <String>Secundo</String>
+        <Boolean>False</Boolean>
+    </Record>
+    <Record>
+        <Number>3</Number>
+        <String>Tercio</String>
+        <Boolean>True</Boolean>
+    </Record>
+	<Record>
+        <Number>3</Number>
+        <String>Tercio</String>
+        <Boolean>True</Boolean>
+    </Record>
+</MyDataset>

@@ -1,0 +1,30 @@
+BostonDESCR.txt
+
+print(boston.DESCR)
+Prix des maisons de Boston
+===========================
+Caractéristiques du jeu de données:  
+
+:Nombre d'instances: 506 
+:Nombre d'attributs: 13 numériques/catégoriels prédictifs
+:La mediane (attribut 14) est normalement la cible
+
+:Informations des attributs (dans l'ordre):
+- CRIM   Taux d'homicide par ville
+- ZN     Proportion de zones résidentielles loties de plus de 2500 M2
+- INDUS  Proportion de surface d'activités B2B par ville
+- CHAS   Variable témoin Charles River (= 1 si site sur rive; 0 sinon)
+- NOX    Taux d'oxyde d'azote (PP 10 millions)
+- RM     Moyennne de pièces par logement
+- AGE    Proportion de logements de propriétaires habitants datant d'avant 1940
+- DIS    Distances pondérées de cinq agences pour l'emploi de Boston
+- RAD    Index d'accessibilité aux autoroutes sortantes
+- TAX    Taux taxe fonciere pour $10000
+- PTRATIO  Taux elèves/enseignant par ville
+- B1000(Bk - 0.63)^2 avec Bk la proportion d'afro-américains par ville
+- LSTAT% Pourcentage de la classe à faible revenus
+- MEDV   Valeur médiane des maisons de propriétaires habitants en milliers de $
+
+:Valeurs d'attributs manquantes: Aucune
+
+:Creator: Harrison, D. and Rubinfeld, D.L.
